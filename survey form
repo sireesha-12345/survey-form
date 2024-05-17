@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><h1>Survey Form</h1></title>
+    <style type="text/css">
+        .one{
+            background-color:#056bff;
+            padding:50px;
+            margin: 100px;
+            height:500px;S
+            width:600px;
+        }
+        .two{
+            border-width:2px; 
+            border-style:solid;
+            border-color: white;
+            background-color: white;
+            height:350px;
+            width:450px;
+
+            margin:50px;
+            padding-left: 10px;
+            padding-right: -9px;
+            padding-top: 10px;
+
+        }
+        .four {
+            width: 400px; 
+            height: 100px;
+            border: 1px solid #000; 
+            padding: 2px;
+            margin:2px; 
+            margin-left: 6px;
+        }
+        .six{
+            color:blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="one">
+    <form>
+        <center><h1>Customer Survey Form</h1></center>
+        <div class="two">
+        Name :<input type="Name">
+        Email:<input type="Email"></center>S
+        <br>
+ <label>Is this time you are using out products&service?</label><br>
+        <input type="radio" name="siri"> Yes
+        <input type="radio" name="siri"> NO
+        <br>
+<label>Would you suggestion to your friends and colleages?</label><br>
+        <input type="radio" name="siri">yes
+        <input type="radio" name="siri"> No
+        <br>
+        How satisfied are you with our company overall?<br>
+        <input type="radio" name="siri">Satisfied
+        <input type="radio" name="siri">Undecided
+        <input type="radio" name="siri">Unsatisfied<br>
+        Do you have Suggestion to improve our service?
+        <div class="four">
+        </div><br>
+<div class="six"></div>
+<center><button>submit</button></center><br>
+</div>
+</form>
+</body>
+</html>
